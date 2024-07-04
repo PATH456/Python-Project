@@ -10,11 +10,14 @@ For example:
 Note: n must be less than the length of the string.
 
 
-def a(word, n):
+def remove_characters(word, n):
     x = word[n:]
-    return(x)
-remove_characters = a("HenryPham", 5)
-print(remove_characters)
+    if n < len(word):
+        return(x)
+    else:
+        print("n must be less than the length of the string")
+result = remove_characters("HenryPham", 7)
+print(result)
 
 
 
