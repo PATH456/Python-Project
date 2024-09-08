@@ -24,7 +24,7 @@ print("Account Holder's Information:'")
 print("Name:", per1.account_holder,"," "Balance before interest:", per1.balance)
 print("Name:", per2.account_holder,"," "Balance before interest:", per2.balance)
 print("Name:", per3.account_holder,"," "Balance before interest:", per3.balance)
-
+#define lại hàm đàng hoàng 
 print("Account Holder's balance after interest: ")
 per1.balance_update()
 per2.balance_update()
