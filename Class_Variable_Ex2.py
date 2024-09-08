@@ -33,8 +33,10 @@ stu3.stu_info()
 #update object 
 
 
-
-
+school_name = "International Melbourne"
+stu1 = Student("Peter Parker", 12, "Male")
+Student.school_name = "High school"
+stu1.name = "Alan 
 
 
 
