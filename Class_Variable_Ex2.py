@@ -21,11 +21,17 @@ stu1 = Student("Peter Parker", 12, "Male")
 stu2 = Student("Anna Taylor-Joy", 10, "Female")
 stu3 = Student("David Beckham", 11, "Male")
 
+
 print("School's Name:", Student.school_name)
 print("Total number of student:", Student.student_count)
 stu1.stu_info()
 stu2.stu_info()
 stu3.stu_info()
+
+
+#update class variable 
+#update object 
+
 
 
 
