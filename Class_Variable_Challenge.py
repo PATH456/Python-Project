@@ -98,6 +98,8 @@ while press != "exit":
     if press == "exit":
         break
 
+#Topic present: 
+#phan biet if and elif and else 
 
 
 
