@@ -31,6 +31,29 @@ per2.balance_update()
 per3.balance_update()
 
 
+class BankAccount:
+    interest_rate = 0.08
+
+    def __init__(self, account_holder, balance):
+         self.account_holder = account_holder
+         self.balance = balance
+    def balance_update(self):
+         self.balance += self.balance * BankAccount.interest_rate
+         print("Balance after update:", self.balance)
+
+    def account_holder_info(self):
+        print(f"Account's holder information: {self.account_holder}, {self.balance}")
+        self.balance_update()
+
+#define lại hàm đàng hoàng
+per1 = BankAccount("Peter", 120000)
+per2 = BankAccount("Tom", 80000)
+per3 = BankAccount("Lisa", 24679)
+per1.account_holder_info()
+per2.account_holder_info()
+per3.account_holder_info()
+
+
 
 
 
