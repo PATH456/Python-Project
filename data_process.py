@@ -4,6 +4,10 @@ df = pd.read_excel("raw_text.ods", sheet_name = "Sheet1")
 
 df = df.drop(columns =["Unknown"])
 
+iltered_df = filtered_df.rename(columns={
+    "Old_name": "New_name"
+})
+
 def sum_digits(code):
     total = 0
     for char in code:
